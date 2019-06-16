@@ -1,14 +1,17 @@
 <template>
     <div class="home">
         <home-header></home-header>
+        <home-tab></home-tab>
     </div>
 </template>
 <script>
 import HomeHeader from './components/Header'
+import HomeTab from './components/Tab'
 export default {
     name: 'Home',
     components: {
-        HomeHeader
+        HomeHeader,
+        HomeTab
     }
 }
 </script>

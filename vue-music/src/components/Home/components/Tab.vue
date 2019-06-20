@@ -25,8 +25,8 @@ export default {
 <style lang="stylus" scoped>
     @import "~@/common/stylus/variable"
     .tab-item
-        height:44px
-        line-height:44px
+        height:2.5rem
+        line-height:2.5rem
         display inline-block
         width:24%
         text-align: center
